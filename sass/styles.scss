@@ -37,7 +37,7 @@ a:hover, a:focus {
   text-decoration: none;
 }
 body {
-  font-family: $sans-serif;
+  font-family: $serif;
   font-weight: $light;
   color: $txt-primary;
   -webkit-text-size-adjust: 100%;
@@ -252,12 +252,15 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../savethedate.jpg') center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  // background: url('../savethedate.jpg') center center no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   position: relative;
+  border: 80px solid #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
 
   /*.rsvp-btn {
     position: absolute;
@@ -329,15 +332,16 @@ header {
 
       a {
         color: $txt-light;
-        padding-right: 25px;
+        padding-right: 10px;
 
         &:hover {
           color: $accent-color;
         }
       }
-      &:last-child a {
-        padding-right: 0px;
-      }
+      // this ruins the padding on the last nav item
+      // &:last-child a {
+      //   padding-right: 0px;
+      // }
     }
   }
   ul.member-actions {

@@ -45,7 +45,9 @@
 	border-color: $accent-color-hover;
 }
 .btn-small {
-	padding: 8px 30px;
+	padding: 8px 10px 8px 10px;
+	text-align: center;
+	display: inline-block;
 }
 .btn-large {
 	padding: 15px 40px;
