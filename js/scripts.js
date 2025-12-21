@@ -218,13 +218,13 @@ $(document).ready(function () {
             && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbyo0rEknln8LedEP3bkONsfOh776IR5lFidLhJFQ6jdvRiH4dKvHZmtoIybvnxpxYr2cA/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbzrlt5FPC-K2kEdDU-gOkpUJuffkbwOqZR42VorNhwKsY9evR7in_s-7-vJuLERJAr6/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
                         $('#alert-wrapper').html(alert_markup('danger', data.message));
                     } else {
-                        $('#alert-wrapper').html('');
+                        $('#alert-wrapper').html(alert_markup('danger', data.message));
                         $('#rsvp-modal').modal('show');
                     }
                 })

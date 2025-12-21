@@ -186,7 +186,7 @@
                     </button>
                     <div class="section-padding">
                         <h3>Thank you!</h3>
-                        <p>We are glad to see you join us on our big day.</p>
+                        <p>We'll make you be back.</p>
                         <div id="add-to-cal"></div>
                     </div>
                 </div>
@@ -197,20 +197,20 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <h3>RSVP ???</h3>
-                <p>Too bad, we aren't ready to collect your RSVPs!  But we'd love to know what your general intentions are, if you have any:</p>
+                <h3>Pre-RSVP ??</h3>
+                <p>Too bad, we aren't ready to collect your RSVPs!  But we'd love to know what your general intentions are.</p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6">
+                        <div class="col-md-6">
                             <div class="form-input-group">
                                 <i class="fa fa-envelope"></i><input type="email" name="email" class=""
                                                                      placeholder="Your email"
                                                                      required>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6">
+                        <div class="col-md-6">
                             <div class="form-input-group">
                                 <i class="fa fa-user"></i><input name="name" class=""
                                                                  placeholder="Your name"
@@ -219,15 +219,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="4"
-                                                                  placeholder="Husband/Wife or kids"
-                                                                  required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
+
+                        <div class="col-md-6">
                             <div class="form-input-group">
                                 <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
                                                                 class="" min="0"
@@ -236,12 +229,50 @@
                             </div>
                         </div>
                     </div>
+                                        <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i><input type="text" name="others_responding" id="others_responding"
+                                                                class="" 
+                                                                placeholder="Others you are responding for?"
+                                                                required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-plane"></i>
+                                <select name="boston_attendance" class="" required>
+                                    <option value="" disabled selected>Boston: do you think you'll join us?</option>
+                                    <option value="planning">Planning on it!</option>
+                                    <option value="hopefully">Hopefully!</option>
+                                    <option value="unknown">Don't know yet, but maybe</option>
+                                    <option value="no">Sadly no</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-plane"></i>
+                                <select name="cyprus_attendance" class="" required>
+                                    <option value="" disabled selected>Cyprus: do you think you'll join us?</option>
+                                    <option value="planning">Planning on it!</option>
+                                    <option value="hopefully">Hopefully!</option>
+                                    <option value="unknown">Don't know yet, but maybe</option>
+                                    <option value="no">Sadly no</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
                     <button class="btn-fill rsvp-btn">
-                        Yes,
-                        that's me!
+                         I'm in (or maybe...)!
                     </button>
                 </form>
             </div>
