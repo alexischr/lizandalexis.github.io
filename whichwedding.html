@@ -1,0 +1,260 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Liz & Alexis !!!!!</title>
+    <meta name="description" content="We would like to invite you to our big day.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Liz & Alexis !!!!!">
+    <meta property="og:description" content="We would like to invite you to our big day.">
+    <meta property="og:image" content="https://lizandalexis.us/savethedate.jpg">
+    <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+
+    <script>
+        // load css files from CDN if local node_modules fail
+        function loadCssFromCDN(css) {
+            // create new link tag
+            const link = document.createElement('link');
+            if (css === 'animate.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css';
+            } else if (css === 'font-awesome.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+            }
+            link.rel = 'stylesheet';
+
+            // add link tag to head section
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+
+        // load js files from CDN if local node_modules fail
+        function loadJsFromCDN(js) {
+            if (js === 'waypoints.js') {
+                document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
+            } else if (js === 'jquery.js') {
+                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" onerror="loadCssFromCDN('font-awesome.css')">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+        /* Override hero background size for savethedate.jpg */
+        .hero {
+            background-repeat: no-repeat !important;
+            background-size: contain !important;
+            background-position: center center !important;
+            border: 80px solid #000000;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        /* Boston May bloom: lilac-inspired page background */
+        body {
+            background-color: #F3EBF8; /* lighter lilac */
+        }
+        /* Disable ALL CAPS in the invitation section */
+        #invitation h1,
+        #invitation h2,
+        #invitation h3,
+        #invitation h4,
+        #invitation h5,
+        #invitation h6,
+        #invitation p {
+            text-transform: none !important;
+            letter-spacing: normal !important;
+        }
+        /* Make the Save the Date image smaller and centered */
+        #intro .savethedate {
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 24px;
+            border-radius: 12px;
+            box-shadow: 0 32px 64px 12px rgba(0, 0, 0, 0.55);
+        }
+        /* Prevent global #intro img rule from forcing full width */
+        #intro img:not(.savethedate) {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Improve visibility of RSVP button */
+        .btn-white {
+            background-color: #2b392a;
+            color: #ffffff; /* white text for contrast */
+            border-color: #ffffff;
+            text-align: center;
+            display: inline-block;
+        }
+        .btn-white:hover,
+        .btn-white:focus {
+            background-color: #f6f2fa; /* subtle tint to match lilac theme */
+            color: #1c3653; /* slightly darker on hover */
+            border-color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body id="top">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+    <section class="navigation">
+        <header>
+            <div class="header-content">
+
+                <div class="header-nav">
+                    <nav>
+                        <ul class="primary-nav">
+                            <li><a href="index.html">Save the dates!
+
+                            </a></li>
+                            <li><a href="boston.html">Boston</a></li>
+                            <li><a href="cyprus.html">Cyprus</a></li>
+                        <ul class="member-actions">
+                            <li><a href="whichwedding.html" class="login">Which Wedding?</a></li>
+                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="navicon">
+                    <a class="nav-toggle" href="#"><span></span></a>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
+</section>
+
+
+
+<section id="intro">
+        <section id="invitation" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Liz and Alexis (that's us!) are getting married!</h3>
+                <p>We would love for you to join our celebrations. We will be making it official on May 24, 2026 in Arlington, MA (just outside Boston), and continuing the celebrations on September 27 in Paralimni, Cyprus.</p>
+            </div>
+                    </div>
+        </div>
+        </section>
+</section>
+
+<section class="rsvp text-center" id="rsvp">
+
+    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Thank you!</h3>
+                        <p>We are glad to see you join us on our big day.</p>
+                        <div id="add-to-cal"></div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="container">
+        <div class="row">
+
+                <h3>Which wedding should I go to?</h3>
+
+<p><img src="https://gist.github.com/user-attachments/assets/f25ccbc5-7639-44cb-abd5-46fc530d312f" alt="M3lW0nl" title="" /></p>
+
+<p>If you can't join us for both, obviously pick the wedding that is most convenient or most exciting for you to attend.</p>
+
+<p>Are they both exciting?  Are they both wildly inconvenient?  Here's some information to help you decide.</p>
+
+<p><details><summary>I want a city break!</summary>Boston </details></p>
+
+<p><details><summary>I want a beach vacation! </summary>Cyprus </details></p>
+
+<p><details><summary>I want to enjoy late summer weather that's so predictable that we can tell you right now it will be a high of 86F/30C and a low of 70F/21C, clear skies, and an ocean so warm you can walk right in </summary>Cyprus </details></p>
+
+<summary><h4></h4>I want to roll the dice on weather.  It might be summer!  It might be winter!  If we are very lucky, it will be late spring!  If we are even luckier, it might not even rain!</summary>Boston </h4>
+
+<p><details><summary>I am going to eat so much seafood </summary>Both!</details></p>
+
+<p><details><summary>I want to experience Jewish wedding ritual and traditions </summary>Boston </details></p>
+
+<p><details><summary>I want to focus on the celebrations </summary>Cyprus </details></p>
+
+<p><details><summary>I want to dance in a circle </summary>Both!</details></p>
+
+<p><details><summary>Can I meet your cat?? </summary>Boston </details></p>
+
+<p><details><summary>Can I meet thousands of cats??  </summary>Cyprus </details></p>
+
+<p><details><summary>I want to see where Alexis grew up </summary>Cyprus </details></p>
+
+<p><details><summary>I want to see where you are building your lives together </summary>Boston </details></p>
+
+<p><details><summary>I want to pair this wedding with visiting NYC or New England </summary>Boston </details></p>
+
+<p><details><summary>I want to pair this wedding with visiting Greece or convenient stopover locations in western Europe </summary>Cyprus </details></p>
+
+<p><details><summary>I want to dance to an awesome funk band with a full horn section </summary>Boston </details></p>
+
+<p><details><summary>I want to dance to an as-yet-undetermined band and DJ but it probably won't be American funk </summary>Cyprus </details></p>
+
+<p><details><summary>I want to party for a respectable number of hours by the standards of American weddings with the option to be in bed by midnight without missing much </summary>Boston </details></p>
+
+<p><details><summary>I want to rock and roll all night and finish at the 24-hour bakery </summary>Cyprus </details></p>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+                <p>Website source forked with license from github.com. Thank you Ram and Antara!!</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
+<script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="js/vendor/ouical.js"></script>
+<script src="js/scripts.min.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
+</body>
+</html>
