@@ -116,6 +116,14 @@
             border-color: #ffffff;
             text-decoration: none;
         }
+        summary::before {
+            content: '▶️'; /* Use a custom character or icon */
+            margin-right: 1.0ch;
+            transition: transform 5.2s; /* Add a smooth transition */
+        }
+        details[open] summary::before {
+            content: '🔽'; /* Change to a different character or icon when open */
+        }
     </style>
 </head>
 <body id="top">
