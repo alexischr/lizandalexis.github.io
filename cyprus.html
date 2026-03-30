@@ -114,6 +114,28 @@
             border-color: #ffffff;
             text-decoration: none;
         }
+
+        /* Keep header links readable before and after sticky-nav animation */
+        section.navigation:not(.fixed) header a,
+        section.navigation:not(.fixed) header ul.primary-nav li a,
+        section.navigation:not(.fixed) header ul.member-actions li a {
+            color: #3d3d3d;
+        }
+        section.navigation:not(.fixed) .nav-toggle span,
+        section.navigation:not(.fixed) .nav-toggle span:before,
+        section.navigation:not(.fixed) .nav-toggle span:after {
+            background: #3d3d3d;
+        }
+        section.navigation.fixed header a,
+        section.navigation.fixed header ul.primary-nav li a,
+        section.navigation.fixed header ul.member-actions li a {
+            color: #ffffff;
+        }
+        section.navigation.fixed .nav-toggle span,
+        section.navigation.fixed .nav-toggle span:before,
+        section.navigation.fixed .nav-toggle span:after {
+            background: #ffffff;
+        }
     </style>
 </head>
 <body id="top">
